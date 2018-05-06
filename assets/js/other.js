@@ -121,7 +121,7 @@ function submitForm()
           formdata.append("address", _("address").value);
           formdata.append("message", _("message").value);
           var ajax = new XMLHttpRequest();
-          ajax.open("POST", "../enviar.php");
+          ajax.open("POST", "../assets/sm.php");
           ajax.onreadystatechange = function() 
           {
                if(ajax.readyState == 4 && ajax.status == 200)
